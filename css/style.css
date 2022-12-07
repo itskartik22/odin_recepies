@@ -1,0 +1,150 @@
+/* General CSS--- */
+* {
+    margin: 0;
+ }
+
+ .flex-container {
+    display: flex;
+ }
+
+ .main-container {
+    height: 1200px;
+    width: 100%;
+ }
+
+ .row-flex {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .column-flex {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .sub-main-container {
+    background-color: aqua;
+    /* flex:1; */
+ }
+ 
+ /* Header CSS---- */
+ .submain-one {
+    background-color: #1F2937;
+    margin-bottom: 5px;
+    /* flex:1 2 auto; */
+ }
+
+ .submain-one .header {
+    align-items: center;
+    justify-content: end;
+    margin: auto;
+    padding: 0px 5px;
+    height: 65px;
+    width: 80%;
+    font-size: 20px;
+    gap: 25px;
+ }
+
+ .submain-one .header a {
+    text-decoration: none;
+    color: white;
+    background-color: ;
+ }
+
+ .submain-one .head-img {
+    height: 400px;
+    margin: 0px 35px;
+    padding: 0px 5px;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 65px; */
+    font: 35px bold black;
+ }
+
+ .main-content {
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 35%;
+    padding: 10px;
+    margin: 10px;
+    text-align: end;
+ }
+
+ .main-content p {
+    font-size: 17px;
+    margin: 5px 2px;
+    /* font-weight: bold; */
+    color: white;
+
+ }
+
+ .main-content button {
+    border: 0;
+    color: white;
+    margin: 8px;
+    padding: 10px 33px;
+    background-color: #3882f6;
+    font-size: 17px;
+ }
+
+ .head-img span {
+    color: rgb(255, 255, 255);
+ }
+ 
+ .main-image img {
+    width: 560px;
+   }
+   
+   /* Seconder Box Css--- */    
+   
+   .submain-two {
+       background-color: #ffffff;
+       height: 350px;
+       text-align: center;
+       align-items: baseline;
+      width: 80%;
+      margin:0% auto;
+    }
+    
+    .img-box img{
+      width: 60%;
+    }
+    .main-container h3{
+      text-align: center;
+      font-size: 25px;
+      margin: 10px;
+    }
+    .img-box{
+      align-self: center;
+      display: inline-block;
+    }
+
+    /* Third Bloxk Cs--- */
+
+    .submain-three{
+      background-color: #e5e7eb;
+      height: 350px;
+   }
+   .submain-three p{
+      color: #1f2937;
+      font-size: 18px;
+      text-align: center;
+      margin: auto 13%;
+      padding: 5px;
+   }
+   .submain-three p span{
+      font-size: 20px;
+      font-weight: bold;
+   }
+   /* Third box css--- */
+   .footer{
+      display: block;
+      height: 40px;
+      background-color: #1F2937;
+      color: white;
+      text-align: center;
+      margin: auto;
+   }
+   .footer p{
+      margin: auto;
+   }
